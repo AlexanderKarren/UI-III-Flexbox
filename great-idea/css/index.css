@@ -130,12 +130,13 @@ div.lineOne, div.lineThree, div.lineFour {
 
 div.lineOne {
 	display:flex;
+	justify-content:space-between;
 }
 
 div.lineOne > div {
 	display:flex;
 	flex-direction:column;
-	width:50%
+	width:48%
 }
 
 div.imgDiv {
@@ -147,12 +148,13 @@ div.imgDiv {
 
 div.lineTwo {
 	display:flex;
+	justify-content:space-between;
 }
 
 div.lineTwo > div {
 	display:flex;
 	flex-direction:column;
-	width:33.33%;
+	width:30%;
 	margin-bottom:50px;
 }
 
